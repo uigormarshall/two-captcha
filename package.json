@@ -1,0 +1,46 @@
+{
+  "name": "two-captcha",
+  "version": "1.0.0",
+  "description": "2Captcha API wrapper for Node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test/index.test | tap-spec",
+    "format": "prettier --write \"**/*.js\""
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uigormarshall/two-captcha.git"
+  },
+  "keywords": [
+    "2captcha",
+    "captcha",
+    "wrapper",
+    "recaptcha",
+    "recapcha-v2",
+    "invisible-captcha",
+    "solve"
+  ],
+  "author": "Uigor Marshall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uigormarshall/two-captcha/issues"
+  },
+  "homepage": "https://github.com/uigormarshall/two-captcha#readme",
+  "dependencies": {
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.1",
+    "xo": "^0.20.3"
+  }
+}
