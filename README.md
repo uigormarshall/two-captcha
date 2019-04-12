@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/two-captcha"><img alt="NPM version" src="https://badge.fury.io/js/two-captcha.svg"></a>
-  <a href="https://www.npmjs.com/package/two-captcha"><img alt="NPM version" src="https://travis-ci.com/uigormarshall/two-captcha.svg?branch=master"></a> 
+  <a href="https://travis-ci.com/uigormarshall/two-captcha"><img alt="TRAVIS version" src="https://travis-ci.com/uigormarshall/two-captcha.svg?branch=master"></a> 
 </p>
 
 Installation:
