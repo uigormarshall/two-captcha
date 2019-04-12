@@ -19,3 +19,12 @@ var TwoCaptcha = require('two-captcha')
 var Captcha = new TwoCaptcha('your-api-key')
 
 ```
+Get the ID of your task:
+
+```js
+var id = Captcha.getId('method', 'googleKey', 'pageUrl')
+```
+Start a cycle that checks if your task is completed and get result:
+```js
+var solve = Captcha.solve(id)
+```
