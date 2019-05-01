@@ -10,11 +10,7 @@ let id = 00000
 //  improve the test
 test("Get id", async t => {
   resp = await  Captcha.getId(method, googleKey, pageUrl)
-  resp = JSON.parse(resp)
-  if(resp.status === 1){
-   id = resp.request
-  }
-  t.assert(resp, resp.request)
+  t.assert(resp, resp)
   t.end()
 })
 
